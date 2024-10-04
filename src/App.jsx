@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className='master-container'>
       <Navbar />
       <Wrestler 
         Image={BretHart}

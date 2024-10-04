@@ -12,5 +12,87 @@
 }
 
 .infomatic {
-    /* width: 25%; */
+    width: 50%;
+    line-height: 1.8;
+    padding: 2rem;
+}
+
+
+.informatic--desc {
+    flex-direction: column;
+    /* width: 20%; */
+    line-height: 1.8;
+
+}
+.informatic--button {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+
+}
+
+
+.informatic--button button {
+    padding: 1rem 6rem;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+.informatic--button button:hover {
+    cursor: pointer;
+    background-color: grey;
+    
+}
+
+
+
+
+
+@media (max-width: 35rem) {
+    
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infomatic {
+        width: 100%;
+    }
+
+    .infomatic--title {
+        padding-bottom: 2rem;
+    }
+
+    .informatic--button button {
+        width: 100%;
+    }
+}
+
+@media ((min-width: 35rem) and (max-width: 56rem)) {
+    .container {
+        background-color: red;
+    }
+    .flex {
+        flex-direction: column;
+    }
+
+    .infomatic {
+        width: 100%;
+    }
+
+    .infomatic--title {
+        padding-bottom: 2rem;
+    }
+
+    .informatic--button button {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 56rem) {
+
 }
